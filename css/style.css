@@ -522,8 +522,14 @@ img{
 .subscribe-flex{
     display: flex;
     align-items: flex-end
+
 }
 .input-subscribe{
+    
+    outline: transparent;
+    transition: 250ms opacity cubic-bezier(0.4, 0, 0.2, 1),
+            250ms visibility cubic-bezier(0.4, 0, 0.2, 1);
+        transition-property: border-color;
     margin-top: 16px;
     width: 264px;
     height: 40px;
@@ -540,6 +546,9 @@ img{
         line-height: 2;
         letter-spacing: 0.04em;
         color: rgba(255, 255, 255, 0.6);
+}
+.input-subscribe:focus{
+    border-color: var(--accent-color);
 }
 .button-subscribe{
     display: inline-flex;
