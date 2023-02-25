@@ -515,13 +515,16 @@ img{
     margin-left: 120px;
 }
 .subscribe-media{
+    position: relative;
     align-items: flex-end;
     margin-left: 80px;
 }
 
 .subscribe-flex{
     display: flex;
-    align-items: flex-end
+    align-items: flex-end;
+    gap: 24px;
+    
 
 }
 .input-subscribe{
@@ -530,11 +533,11 @@ img{
     transition: 250ms opacity cubic-bezier(0.4, 0, 0.2, 1),
             250ms visibility cubic-bezier(0.4, 0, 0.2, 1);
         transition-property: border-color;
-    margin-top: 16px;
+    
     width: 264px;
     height: 40px;
     padding-left: 16px;
-    margin-right: 24px;
+    
     border: 1px solid rgba(255, 255, 255, 0.3);
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
     border-radius: 4px;
@@ -563,7 +566,7 @@ img{
     border-radius: 4px;
     background: var(--button-color);
     border: none;
-    align-items: left;
+    
     font-family: 'Roboto';
         font-style: normal;
         font-weight: 500;
@@ -571,21 +574,39 @@ img{
         line-height: 1.5;
         letter-spacing: 0.04em;
         color: var(--wite-color-text);
+    gap: 16px;
+    
+}
+.button-subscribe:hover,
+.button-subscribe:focus {
+    background-color: var(--accent-color);
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+}
+.subscribe-icon {
+    fill: var(--wite-color-text);
+    
+
 
 }
-.button-subscribe::after{
+.icon-submit{
+    position: absolute;
+        left: 10px;
+        top: 50%;
+        transform: translateY(-50%);
+        transition: 250ms opacity cubic-bezier(0.4, 0, 0.2, 1),
+            250ms visibility cubic-bezier(0.4, 0, 0.2, 1);
+        /* transition-property: fill; */
+
+}
+/* .button-subscribe::after{
     content: "";
     width: 24px;
     height: 20px;
     margin-left: 16px;
     background-image: url(../images/frame3.svg);
-    background-repeat: no-repeat;
-}
-.button-subscribe:hover, 
-.button-subscribe:focus{
-    background-color: var(--accent-color);
-    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
-}
+    background-repeat: no-repeat; */
+/* } */
+
 
 
 .title-media{
@@ -593,12 +614,13 @@ img{
     font-weight: 500;
     font-size: 16px;
     line-height: calc(24 / 16);
+    margin-bottom: 16px;
 }
 .footer-container-all{
     display: flex;
 }
 .soc-list-footer {
-    margin-top: 16px;
+    
     display: flex;
     justify-content: center;
     gap: 16px;
@@ -656,6 +678,7 @@ img{
     position: absolute;
     top: 50%;
     left: 50%;
+    padding: 72px 24px 24px 24px;
     width: 408px;
     min-height: 576px;
     background: var(--background-modal);
@@ -666,10 +689,8 @@ img{
 }
 .modal-title{
     display: block;
-    padding-top: 72px;
     text-align: center;
-    font-family: 'Roboto';
-        font-style: normal;
+    
         font-weight: 500;
         font-size: 16px;
         line-height: 1.5;
@@ -727,6 +748,7 @@ img{
         transition: 250ms opacity cubic-bezier(0.4, 0, 0.2, 1),
             250ms visibility cubic-bezier(0.4, 0, 0.2, 1);
         transition-property: border-color;
+        margin-bottom: 16px;
 }
 .modal-message:focus{
     border-color: var(--background-soc);
@@ -737,27 +759,25 @@ textarea {
     resize: none;
 }
 
+
 .modal-form{
-    /* margin-bottom: 8px; */
-    padding-left: 24px;
-    padding-right: 24px;
+    display: flex;
+    flex-direction: column;
+    
+    
 }
 .modal-field{
+    display: flex;
+    flex-direction: column;
     
-    position: relative;
-    margin-top: 16px;
+    
 }
 .privacy{
     text-decoration: underline;
-    /* margin: 0; */
-    padding-left: 2px;; 
+    padding-left: 2px;
+    color: var(--button-color);
 }
-.btn-submit{
-    display: block;
-    margin: 0 auto;
 
-    
-}
 
 
 
@@ -773,8 +793,8 @@ textarea {
     transition: 250ms opacity cubic-bezier(0.4, 0, 0.2, 1),
             250ms visibility cubic-bezier(0.4, 0, 0.2, 1);
         transition-property: border-color;
-    margin-bottom: 0;
-    padding-bottom: 0;
+    margin-bottom: 8px;
+    
         
     
 
@@ -790,12 +810,13 @@ textarea {
             
 }
 .input-text{
-    
+        display: inline-block;
         font-size: 12px;
         line-height: 1.17;
         letter-spacing: 0.04em;
         color: var(--input-text-color);
         margin-bottom: 4px;
+        
 }
 .input-check:checked + .check-text::before {
     background-color: var(--accent-color);
@@ -856,3 +877,7 @@ textarea {
 .modal-input:focus + .modal-icon{
     fill: var(--button-color);
 } 
+.btn-submit{
+        display: inline-block;
+        margin: auto;
+}
