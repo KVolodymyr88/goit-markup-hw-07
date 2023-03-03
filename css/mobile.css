@@ -1,0 +1,17 @@
+@media screen and (min-width: 480px) {
+    .section-team{
+        background-color: var(--background-team);
+        padding-top: 96px;
+        padding-bottom: 128px;
+        /* gap: 24px; */
+    }
+    .section-team > .container {
+        width: 320px;            
+    }
+    .customers >.container {
+        width: 434px;
+    }
+    .title-customers:nth-last-child(-n + 2) {
+    margin-bottom: 0px;
+    }
+}
