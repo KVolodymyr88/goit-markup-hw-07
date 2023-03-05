@@ -1,4 +1,147 @@
 @media screen and (min-width: 1200px){
+    .header > .container {
+        width: 1158px;
+    }
+    .header::after{
+        max-width: 1440px;
+    }
+    .mail-padding {
+        margin-bottom: 0px;
+    }
+    .header-container{
+        
+        min-height: 76px;
+    }
+    .current::after {
+    top: 47px;
+    }
+    .logo-header {
+        margin-right: 76px;
+    }
+    .auth-nav{
+        display: flex;
+        gap: 40px;
+        font-size: 16px;
+        line-height: 1.5;
+    }
+    .address{
+        align-items: center;
+        margin-bottom: 0px;
+    }
+    .modal-close:hover,
+    .modal-close:focus {
+        background-color: var(--accent-color);
+        cursor: pointer;
+    }
+    .input-check:focus+.check-text::before {
+        border-color: var(--accent-color);
+    
+    }
+    
+        .modal-input:focus {
+            border-color: var(--background-soc);
+        }
+    
+        .modal-input:focus+.modal-icon {
+            fill: var(--button-color);
+        }
+        .input-subscribe:focus {
+            border-color: var(--accent-color);
+        }
+    
+    
+    
+    
+    .modal-close:hover,
+        .modal-close:focus {
+            background-color: var(--accent-color);
+            cursor: pointer;
+    
+    
+        }
+    
+        .modal-close:hover .modal-close-icon,
+        .modal-close:focus .modal-close-icon {
+            fill: var(--wite-color-text);
+        }
+        .modal-message:focus {
+            border-color: var(--background-soc);
+    
+    
+        }
+        .site-nav .link:hover,
+        .site-nav .link:focus {
+            color: var(--accent-color);
+        }
+        .auth-nav .link:hover,
+        .auth-nav .link:focus {
+            color: var(--accent-color);
+        }
+        .products-item-link:hover,
+        .products-item-link:focus {
+            box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+        }
+    
+        .products-item-link:hover .overlay,
+        .products-item-link:focus .overlay {
+            transform: translate(0, 0);
+            
+        }
+    .hero {
+            padding-top: 188px;
+            padding-bottom: 188px;
+        }
+    .hero-title{
+        margin-bottom: 48px;
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    .button:hover,
+        .button:focus {
+            transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
+            transition-property: background-color, border, box-shadow, text;
+            /* font-family: roboto, sans-serif; */
+            cursor: pointer;
+            /* font-weight: 500;
+            font-size: 16px;
+            line-height: 1.5;
+            border-radius: 4px;
+            text-align: center; */
+        }
+        .button.primary:hover,
+        .button.primary:focus {
+            background-color: var(--accent-color);
+            box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+        }
+        .button.secondary:hover,
+        .button.secondary:focus {
+            
+            background-color: var(--accent-color);
+            color: var(--wite-color-text);
+            border-style: solid;
+            border-color: var(--accent-color);
+            box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+        }
+        .button-subscribe:hover,
+        .button-subscribe:focus {
+            cursor: pointer;
+            background-color: var(--accent-color);
+            box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+        }
+    
+    
+    
+    
+    
     .section-specifics > .container {
         width: 1158px;
         

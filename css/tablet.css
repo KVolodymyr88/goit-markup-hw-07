@@ -1,4 +1,101 @@
 @media screen and (min-width: 768px){
+    .header>.container {
+            width: 768px;
+    }
+    .header-container{
+        align-items: normal;
+    }
+    .mail-padding{
+        margin-bottom: 8px;
+    }
+        .logo-header {
+        margin-right: 123px;
+    }
+    .header-navigation {
+            display: flex;
+            align-items: center;
+    }
+    
+    
+    
+    .menu-open {
+            display:none
+    } 
+        .site-nav .link{
+            display: block;
+        }
+    .address {
+        display: block;
+        display: flex;
+            align-items: flex-end;
+            margin-bottom: 12px;
+    }
+    .site-nav .link {
+            color: var(--primary-text-color);
+            position: relative;
+            transition: 250ms opacity cubic-bezier(0.4, 0, 0.2, 1),
+                250ms visibility cubic-bezier(0.4, 0, 0.2, 1);
+            transition-property: color;
+    
+        }
+        .site-nav .link.current {
+            color: var(--button-color);
+    
+        }
+    
+        .site-nav {
+            font-size: 16px;
+            font-weight: 500;
+            line-height: 1.5;
+            display: flex;
+            gap: 40px;
+        }
+        .auth-nav .link {
+            color: var(--title-text-color);
+            transition: 250ms opacity cubic-bezier(0.4, 0, 0.2, 1),
+                250ms visibility cubic-bezier(0.4, 0, 0.2, 1);
+            transition-property: color;
+        }
+    
+        .auth-nav {
+            font-style: normal;
+            font-size: 12px;
+            line-height: 1.17;
+            /* display: flex; */
+            /* gap: 40px; */
+        }
+    
+    
+    
+    .modal {
+        width: 408px;
+    
+    }
+    
+    .hero{
+        padding-top: 112px;
+        padding-bottom: 108px;
+    }
+    .hero-title {
+        min-width: 496px;
+        font-size: 56px;
+        margin-bottom: 40px;
+        
+    }
+    .hero-container{
+        width: 526px;
+        
+    }
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
     .section-specifics > .container {
             width: 582px;
     }

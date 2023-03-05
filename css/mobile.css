@@ -1,4 +1,40 @@
 @media screen and (min-width: 480px) {
+    .header > .container{
+        width: 428px;
+    }
+    
+    
+    
+    
+    
+    
+    .modal{
+        width: 392px;
+        
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    .hero-title{
+        width: 320px;
+        margin-bottom: 72px;
+    }
+    .hero-container {
+        width: 350px;
+            
+    }
+    
+    
+    
+    
+    
+    
     .section-team{
         background-color: var(--background-team);
         padding-top: 96px;
@@ -13,5 +49,9 @@
     }
     .title-customers:nth-last-child(-n + 2) {
     margin-bottom: 0px;
+    }
+    .section-specifics > .container{
+        width: 428px;
+        
     }
 }
