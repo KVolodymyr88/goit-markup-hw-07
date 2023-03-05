@@ -99,9 +99,19 @@ a {
     border: none;
 
 }
+.mob-menu.is-hidden {
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+}
+
+.mob-menu.is-hidden .modal {
+    transform: translate(-50%, -50%) scale(0);
+}
 .menu-hamburger{
 stroke: #2E2F42;
 }
+
 
 
 .header-navigation{
@@ -135,6 +145,101 @@ stroke: #2E2F42;
 .address{
     display: none;
 }
+
+.mob-menu{
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    padding-top: 24px;
+    padding-bottom: 40px;
+    /* padding-left: 40px; */
+    /* padding-right: 35px; */
+    background-color: #fff;
+        box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.mob-menu > .container {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    overflow-y: auto;
+    /* background-color: #fff;
+    padding-left: 0;
+    padding-right: 0; */
+
+}
+.menu-close {
+    display: flex;
+    justify-content: center;
+        align-items: center;
+    margin-left: auto;
+    margin-bottom: 32px;
+    
+    top: 24px;
+    right: 24px;
+    width: 24px;
+    height: 24px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 0;
+    background: #E7E9FC;
+    border-radius: 50%;
+    transition-property: background-color, fill;
+}
+.mob-menu-list{
+
+}
+.mob-menu-item:not(:last-child){
+    margin-bottom: 40px;
+}
+.mob-menu-link{
+    font-weight: 700;
+        font-size: 36px;
+        line-height: 1.11;
+        letter-spacing: 0.02em;
+        text-transform: capitalize;
+        color: #2E2F42;
+
+}
+.current-menu{
+    color: var(--accent-color)
+}
+.mob-menu-nav{
+    margin-bottom: 48px;
+
+}
+.mob-nav-list:not(:last-child) {
+    margin-bottom: 40px;
+}
+
+.mob-menu-tel{
+    font-weight: 700;
+        font-size: 29px;
+        line-height: 1.11;    
+        letter-spacing: 0.02em;
+        text-transform: capitalize;
+        color: var(--background-soc)
+    
+}
+.mob-menu-mail{
+    font-weight: 500;
+        font-size: 20px;
+        line-height: 1.2;
+        color: #434455;
+
+}
+.mob-soc-list{
+    display: flex;
+    gap: 43px;
+}
+
+
+
+
+
+
 .hero{
     background: var(--primary-text-color);
     padding-top: 112px;

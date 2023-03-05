@@ -3,7 +3,7 @@
         width: 1158px;
     }
     .header::after{
-        max-width: 1440px;
+        width: 1440px;
     }
     .mail-padding {
         margin-bottom: 0px;
@@ -28,6 +28,8 @@
         align-items: center;
         margin-bottom: 0px;
     }
+    
+    
     .modal-close:hover,
     .modal-close:focus {
         background-color: var(--accent-color);

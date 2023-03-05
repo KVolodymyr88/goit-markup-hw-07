@@ -1,4 +1,17 @@
 @media screen and (min-width: 480px) {
+    .mob-menu > .container {
+            width: 428px;
+            padding-left: 0;
+            padding-right: 0;
+            
+        }
+    .mob-menu-tel {
+        font-size: 36px;
+    }
+        .mob-soc-list {
+            display: flex;
+            gap: 56px;
+        }
     .header > .container{
         width: 428px;
     }
