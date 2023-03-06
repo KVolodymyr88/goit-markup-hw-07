@@ -234,4 +234,16 @@
     .soc-link-footer:is(:hover, :focus) {
         background-color: var(--soc-link-footer-hover);
     }
+    /* Portfolio */
+    .section-photo > .container {
+        width: 1158px;
+    }
+    .section-photo {
+        padding-bottom: 120px;
+        padding-top: 96px;
+    }
+    .button-btn {
+        justify-content: center;
+    }
+
 }

@@ -41,4 +41,9 @@
     .section-specifics > .container{
         width: 428px;
     }
+
+    /* ---- */
+    .section-photo > .container {
+        width: 428px;
+    }
 }

@@ -163,4 +163,12 @@
     .social-media{
         margin-top: 0;
     }
+    /* ---- */
+    .section-photo {
+        padding-bottom: 96px;
+        padding-top: 64px;
+    }
+        img {
+            /* width: 356px; */
+        }
 }
