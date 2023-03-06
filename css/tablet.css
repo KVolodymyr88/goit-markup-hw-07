@@ -1,6 +1,6 @@
 @media screen and (min-width: 768px){
     .header>.container {
-            width: 768px;
+        width: 768px;
     }
     .header-container{
         align-items: normal;
@@ -12,115 +12,98 @@
         margin-right: 123px;
     }
     .header-navigation {
-            display: flex;
-            align-items: center;
+        display: flex;
+        align-items: center;
     }
-    
-    
-    
     .menu-open {
-            display:none
+        display:none
     } 
-        .site-nav .link{
-            display: block;
-        }
+    .site-nav .link{
+        display: block;
+    }
     .address {
         display: block;
         display: flex;
-            align-items: flex-end;
-            margin-bottom: 12px;
+        align-items: flex-end;
+        margin-bottom: 12px;
     }
     .site-nav .link {
-            color: var(--primary-text-color);
-            position: relative;
-            transition: 250ms opacity cubic-bezier(0.4, 0, 0.2, 1),
-                250ms visibility cubic-bezier(0.4, 0, 0.2, 1);
-            transition-property: color;
-    
-        }
-        .site-nav .link.current {
-            color: var(--button-color);
-    
-        }
-    
-        .site-nav {
-            font-size: 16px;
-            font-weight: 500;
-            line-height: 1.5;
-            display: flex;
-            gap: 40px;
-        }
-        .auth-nav .link {
-            color: var(--title-text-color);
-            transition: 250ms opacity cubic-bezier(0.4, 0, 0.2, 1),
-                250ms visibility cubic-bezier(0.4, 0, 0.2, 1);
-            transition-property: color;
-        }
-    
-        .auth-nav {
-            font-style: normal;
-            font-size: 12px;
-            line-height: 1.17;
-            /* display: flex; */
-            /* gap: 40px; */
-        }
-    
-    
-    
+        color: var(--primary-text-color);
+        position: relative;
+        transition: 250ms opacity cubic-bezier(0.4, 0, 0.2, 1),
+        250ms visibility cubic-bezier(0.4, 0, 0.2, 1);
+        transition-property: color;
+    }
+    .site-nav .link.current {
+        color: var(--button-color);
+    }
+    .site-nav {
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 1.5;
+        display: flex;
+        gap: 40px;
+    }
+    .auth-nav .link {
+        color: var(--title-text-color);
+        transition: 250ms opacity cubic-bezier(0.4, 0, 0.2, 1),
+        250ms visibility cubic-bezier(0.4, 0, 0.2, 1);
+        transition-property: color;
+    }
+    .auth-nav {
+        font-style: normal;
+        font-size: 12px;
+        line-height: 1.17;
+    }
     .modal {
         width: 408px;
-    
     }
-    
     .hero{
         padding-top: 112px;
         padding-bottom: 108px;
+        background-image: linear-gradient(to right,
+            rgba(46, 47, 66, 0.7),
+            rgba(46, 47, 66, 0.7)),
+        url(../images/people-office-tablet.jpg);
+    }
+    @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+        .hero {
+            background-image: linear-gradient(to right,
+                rgba(46, 47, 66, 0.7),
+                rgba(46, 47, 66, 0.7)),
+            url(../images/people-office-tablet-2x.jpg);
+        }
     }
     .hero-title {
         min-width: 496px;
         font-size: 56px;
+        line-height: 1.07;
+        letter-spacing: 0.02em;
         margin-bottom: 40px;
-        
     }
     .hero-container{
         width: 526px;
-        
     }
-
-    
-    
-    
-    
-    
-    
-    
-    
-    
     .section-specifics > .container {
-            width: 582px;
+        width: 582px;
     }
     .feature-title{
         text-align: left;
     }
-    
     .specifics-container {
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: space-between;
-            /* column-gap: 24px; */
-        }
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
     .feauture-item {
         width: calc((100% - 24px) / 2);
         margin-bottom: 72px;
     }
     .feauture-item:nth-last-child(-n + 2) {
         margin-bottom: 0px;
-
     }
-
-
-
-
     .section-team {
         background-color: var(--background-team);
         padding-top: 96px;
@@ -158,11 +141,6 @@
     .customers > .container {
         width: 582px;
     }
-
-    .footer>.container {
-    width: 582px;
-    }
-
     .footer-container-all {
         display: flex;
         flex-wrap: wrap;
@@ -185,11 +163,4 @@
     .social-media{
         margin-top: 0;
     }
-
-
-
-
-
-
-
 }

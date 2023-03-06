@@ -1,58 +1,33 @@
 @media screen and (min-width: 480px) {
     .mob-menu > .container {
-            width: 428px;
-            padding-left: 0;
-            padding-right: 0;
-            
-        }
+        width: 428px;
+        padding-left: 0;
+        padding-right: 0;
+    }
     .mob-menu-tel {
         font-size: 36px;
     }
-        .mob-soc-list {
-            display: flex;
-            gap: 56px;
-        }
+    .mob-soc-list {
+        display: flex;
+        gap: 56px;
+    }
     .header > .container{
         width: 428px;
     }
-    
-    
-    
-    
-    
-    
     .modal{
         width: 392px;
-        
     }
-    
-    
-    
-    
-    
-    
-    
-    
-    
     .hero-title{
         width: 320px;
         margin-bottom: 72px;
     }
     .hero-container {
         width: 350px;
-            
     }
-    
-    
-    
-    
-    
-    
     .section-team{
         background-color: var(--background-team);
         padding-top: 96px;
         padding-bottom: 128px;
-        /* gap: 24px; */
     }
     .section-team > .container {
         width: 320px;            
@@ -65,6 +40,5 @@
     }
     .section-specifics > .container{
         width: 428px;
-        
     }
 }
