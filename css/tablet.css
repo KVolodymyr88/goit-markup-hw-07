@@ -64,7 +64,7 @@
         background-image: linear-gradient(to right,
             rgba(46, 47, 66, 0.7),
             rgba(46, 47, 66, 0.7)),
-        url(../images/people-office-tablet.jpg);
+        url(../images/people-office-tab.jpg);
     }
     @media (min-device-pixel-ratio: 2),
     (min-resolution: 192dpi),
@@ -73,7 +73,7 @@
             background-image: linear-gradient(to right,
                 rgba(46, 47, 66, 0.7),
                 rgba(46, 47, 66, 0.7)),
-            url(../images/people-office-tablet-2x.jpg);
+            url(../images/people-office-tab-2x.jpg);
         }
     }
     .hero-title {
@@ -168,7 +168,24 @@
         padding-bottom: 96px;
         padding-top: 64px;
     }
+    .section-photo > .container{
+        width: 736px;
+    }
         img {
             /* width: 356px; */
         }
+                        .products {
+                            display: flex;
+                            flex-wrap: wrap;
+                            justify-content: space-between;
+                            row-gap: 48px;
+                            column-gap: 20px;
+                        }
+
+        .products-item {
+            width: calc((100% - 24px) / 2);
+        }
+    .button-btn{
+        justify-content: center;
+    }
 }

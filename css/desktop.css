@@ -70,6 +70,13 @@
     .auth-nav .link:focus {
         color: var(--accent-color);
     }
+    
+    .products-item{
+        width: calc((100% - 40px) / 3);
+    }
+    .products-item:nth-last-child(-n + 3) {
+        margin-bottom: 0px;
+    }
     .products-item-link:hover,
     .products-item-link:focus {
         box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
@@ -242,8 +249,8 @@
         padding-bottom: 120px;
         padding-top: 96px;
     }
-    .button-btn {
+    /* .button-btn {
         justify-content: center;
-    }
+    } */
 
 }
