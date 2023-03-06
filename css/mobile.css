@@ -46,4 +46,7 @@
     .section-photo > .container {
         width: 428px;
     }
+    img{
+        width: 100%;
+    }
 }

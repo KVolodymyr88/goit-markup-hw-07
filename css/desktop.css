@@ -85,6 +85,9 @@
     .products-item-link:focus .overlay {
         transform: translate(0, 0);
     }
+        img {
+            width: 360px;
+        }
     .hero {
         padding-top: 188px;
         padding-bottom: 188px;
