@@ -91,6 +91,7 @@
     }
     .feature-title{
         text-align: left;
+        font-size: 36px;
     }
     .specifics-container {
         display: flex;
@@ -141,6 +142,9 @@
     .customers > .container {
         width: 582px;
     }
+    .footer > .container{
+        width: 582px;
+    }
     .footer-container-all {
         display: flex;
         flex-wrap: wrap;
@@ -171,9 +175,7 @@
     .section-photo > .container{
         width: 736px;
     }
-        img {
-            width: 356px;
-        }
+    
                         .products {
                             display: flex;
                             flex-wrap: wrap;
@@ -185,7 +187,7 @@
         .products-item {
             width: calc((100% - 24px) / 2);
         }
-    .button-btn{
+     .button-btn{
         justify-content: center;
     }
 }
