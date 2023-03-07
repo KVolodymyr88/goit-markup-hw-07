@@ -167,7 +167,6 @@
     .social-media{
         margin-top: 0;
     }
-    /* ---- */
     .section-photo {
         padding-bottom: 96px;
         padding-top: 64px;
@@ -175,19 +174,17 @@
     .section-photo > .container{
         width: 736px;
     }
-    
-                        .products {
-                            display: flex;
-                            flex-wrap: wrap;
-                            justify-content: space-between;
-                            row-gap: 48px;
-                            column-gap: 20px;
-                        }
-
-        .products-item {
-            width: calc((100% - 24px) / 2);
-        }
-     .button-btn{
+    .products {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        row-gap: 48px;
+        column-gap: 20px;
+    }
+    .products-item {
+        width: calc((100% - 24px) / 2);
+    }
+    .button-btn{
         justify-content: center;
     }
 }

@@ -85,9 +85,7 @@
     .products-item-link:focus .overlay {
         transform: translate(0, 0);
     }
-        img {
-            width: 360px;
-        }
+    
     .hero {
         padding-top: 188px;
         padding-bottom: 188px;
@@ -244,7 +242,6 @@
     .soc-link-footer:is(:hover, :focus) {
         background-color: var(--soc-link-footer-hover);
     }
-    /* Portfolio */
     .section-photo > .container {
         width: 1158px;
     }
@@ -252,8 +249,5 @@
         padding-bottom: 120px;
         padding-top: 96px;
     }
-    /* .button-btn {
-        justify-content: center;
-    } */
 
 }
